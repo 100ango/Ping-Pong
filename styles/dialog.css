@@ -1,0 +1,31 @@
+.diagBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 242px;
+    background: #eee;
+    border : 3px;
+    border-style : solid;
+    color: #aaa;
+}
+.diagBox p {
+    line-height: 1.5;
+    padding: 10px 20px;
+    color: #333;
+    padding-left: 82px;
+    background-position : 20px center;
+    background-repeat : no-repeat;
+}
+.diagBox button {
+    background: none;
+    border: 2px;
+    border-style : solid;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 1.1rem;
+    color: #aaa;
+}
+
+
